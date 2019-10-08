@@ -15,8 +15,9 @@ Then i used free Image Polygonal Annotation tool for creating annotation over th
 ### Demo ScreenShot 2
 Tool [LabelMe](https://github.com/wkentaro/labelme)
 
-![ScreenShot_2](images/labelme1.png?raw=true "ScreenShot_2")
 ![ScreenShot_3](images/labelme2.png?raw=true "ScreenShot_3")
+![ScreenShot_2](images/labelme1.png?raw=true "ScreenShot_2")
+
 
 finally run [labelme2coco.py](labelme2coco.py) file to convert all the Image annotation json to COCO like dataset with mask image
 
@@ -86,14 +87,14 @@ pip install -r requirements.txt
 
 ## Training
 
-Creating a custom dataset and training process is available in [training-code.py](training-code.py) file
+Creating image dataset and training process is available in [training-code.py](training-code.py) file
 ```
 python training-code.py
 ```
 
 ## Prediction
 
-Create mask image for single credit card image is available in [predict.py](predict.py) file
+predict mask image for single credit card image is available in [predict.py](predict.py) file
 ```
 python predict.py
 ```

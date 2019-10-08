@@ -98,3 +98,8 @@ predict mask image for single credit card image is available in [predict.py](pre
 ```
 python predict.py
 ```
+
+## Sample Output Image
+
+![ScreenShot_4](images/output.jpeg?raw=true "ScreenShot_4")
+
